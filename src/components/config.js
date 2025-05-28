@@ -24,7 +24,7 @@ const config = {
   proTip: 'Pro tip: try searching "Bor adii Egane Mattum?" ;)', // Helpful tip for users
 
   // ⏳ Timer Page
-  Dateofbirth: "12/12/2009", // 📅 Set your anniversary date here (used for the timer)
+  Dateofbirth: "12-12-2009", // 📅 Set your anniversary date here (used for the timer)
   timerTitle: "OMG:", // Title displayed on the timer page
   timerMessage: "... and still counting <3", // Message shown alongside the timer
   timeUnits: {
@@ -100,15 +100,22 @@ const config = {
     // 📝 Message Recap Page
     messageTitle: "Best Moments!!", // Title for the messages recap page
     messageGallery: [
-      { title: "Sat 10:48 AM", description: "A beautiful day to remember First Text Msg." }, // Message entry
+      { title: "Sat 10:48 AM", description: "❤️" }, // Message entry
       { title: "😊", description: " #moment" },
       { title: "😅", description: "# ❤️" },
     ],
   
+ // 📸 Picture Recap Page
+    pictureTitle: "Our Pictures", // Title for the pictures recap page
+    pictureGallery: [
+      { title: "SORRY DATE ARIYILA", description: " 🎉" }, // Picture entry
+      { title: "SORRY DATE ARIYILA", description: " 💕" },
+      { title: "SORRY DATE ARIYILA", description: "🏖️" },
+    ],
     
   
   // 💌 Love Letter Page
-  Thisisforyou: "Hi, Ipoo bor adi mariyooo ?💖", // Message displayed on the love letter page
+  loveLetterMessage: "This is for you Hyfaaaaa Ipooo Mind Refresh Ayooooo Bor adii mariyoooo💖", // Message displayed on the love letter page
 
   // 🎇 Closing Page
   closingMessage: "Ilagilll Enth cheyum enn ariyila iniii.", // Closing message displayed
